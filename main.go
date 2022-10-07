@@ -20,7 +20,7 @@ func apiKeyAuth() gin.HandlerFunc {
 
 func getToppings() []Toppings {
 	var toppings []Toppings // Read errors caught by unmarshal
-	fileBytes, _ := os.ReadFile("resources/data/TOPPINGS.json")
+	fileBytes, _ := os.ReadFile("data/TOPPINGS.json")
 	err := json.Unmarshal(fileBytes, &toppings)
 	if err != nil {
 		fmt.Println(err)
@@ -30,7 +30,7 @@ func getToppings() []Toppings {
 
 func getBatters() interface{} {
 	var batters []Batters // Read errors caught by unmarshal
-	fileBytes, _ := os.ReadFile("resources/data/BATTERS.json")
+	fileBytes, _ := os.ReadFile("data/BATTERS.json")
 	err := json.Unmarshal(fileBytes, &batters)
 	if err != nil {
 		fmt.Println(err)
@@ -40,7 +40,7 @@ func getBatters() interface{} {
 
 func getPayment() interface{} {
 	var payments []Payment // Read errors caught by unmarshal
-	fileBytes, _ := os.ReadFile("resources/data/PAYMENTS.json")
+	fileBytes, _ := os.ReadFile("data/PAYMENTS.json")
 	err := json.Unmarshal(fileBytes, &payments)
 	if err != nil {
 		fmt.Println(err)
@@ -50,7 +50,7 @@ func getPayment() interface{} {
 
 func getCustomer() interface{} {
 	var customers []Customer // Read errors caught by unmarshal
-	fileBytes, _ := os.ReadFile("resources/data/CUSTOMER.json")
+	fileBytes, _ := os.ReadFile("data/CUSTOMER.json")
 	err := json.Unmarshal(fileBytes, &customers)
 	if err != nil {
 		fmt.Println(err)
@@ -60,7 +60,7 @@ func getCustomer() interface{} {
 
 func getBakery() interface{} {
 	var bakery []BakeryResponse // Read errors caught by unmarshal
-	fileBytes, _ := os.ReadFile("resources/data/BAKERY.json")
+	fileBytes, _ := os.ReadFile("data/BAKERY.json")
 	err := json.Unmarshal(fileBytes, &bakery)
 	if err != nil {
 		fmt.Println(err)
@@ -70,7 +70,7 @@ func getBakery() interface{} {
 
 func getOrders() interface{} {
 	var orders []Orders // Read errors caught by unmarshal
-	fileBytes, _ := os.ReadFile("resources/data/ORDERS.json")
+	fileBytes, _ := os.ReadFile("data/ORDERS.json")
 	err := json.Unmarshal(fileBytes, &orders)
 	if err != nil {
 		fmt.Println(err)
