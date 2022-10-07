@@ -1,0 +1,26 @@
+[
+  {
+    "_ID": "0001",
+    "TYPE": "SPRINKLES",
+    "COLOUR": "RED",
+    "AVAILABILITY": true
+  },
+  {
+    "_ID": "0002",
+    "TYPE": "SUGAR",
+    "COLOUR": "WHITE",
+    "AVAILABILITY": true
+  },
+  {
+    "_ID": "0003",
+    "TYPE": "GLAZE",
+    "COLOUR": "CLEAR",
+    "AVAILABILITY": true
+  },
+  {
+    "_ID": "0004",
+    "TYPE": "ICING",
+    "COLOUR": "PINK",
+    "AVAILABILITY": true
+  }
+]

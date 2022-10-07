@@ -1,0 +1,176 @@
+[
+  {
+    "_ID": "0001",
+    "TYPE": "MUFFINS",
+    "NAME": "SHORTCAKE",
+    "LOCATION": "CARDIFF",
+    "BATTERS": [
+      {
+        "_ID": "0001",
+        "TYPE": "RED VELVET",
+        "COLOUR": "RED",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0002",
+        "TYPE": "WHITE CHOCOLATE",
+        "COLOUR": "WHITE",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0003",
+        "TYPE": "DARK CHOCOLATE",
+        "COLOUR": "BROWN",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0004",
+        "TYPE": "MILK CHOCOLATE",
+        "COLOUR": "BROWN",
+        "AVAILABILITY": true
+      }
+    ],
+    "TOPPINGS": [
+      {
+        "_ID": "0001",
+        "TYPE": "SPRINKLES",
+        "COLOUR": "RED",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0002",
+        "TYPE": "SUGAR",
+        "COLOUR": "WHITE",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0003",
+        "TYPE": "GLAZE",
+        "COLOUR": "CLEAR",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0004",
+        "TYPE": "ICING",
+        "COLOUR": "PINK",
+        "AVAILABILITY": true
+      }
+    ]
+  },
+  {
+    "_ID": "0002",
+    "TYPE": "DOUGHNUT",
+    "NAME": "DOUGHNUTTERS",
+    "LOCATION": "BRISTOL",
+    "BATTERS": [
+      {
+        "_ID": "0001",
+        "TYPE": "RED VELVET",
+        "COLOUR": "RED",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0002",
+        "TYPE": "WHITE CHOCOLATE",
+        "COLOUR": "WHITE",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0003",
+        "TYPE": "DARK CHOCOLATE",
+        "COLOUR": "BROWN",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0004",
+        "TYPE": "MILK CHOCOLATE",
+        "COLOUR": "BROWN",
+        "AVAILABILITY": true
+      }
+    ],
+    "TOPPINGS": [
+      {
+        "_ID": "0001",
+        "TYPE": "SPRINKLES",
+        "COLOUR": "RED",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0002",
+        "TYPE": "SUGAR",
+        "COLOUR": "WHITE",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0003",
+        "TYPE": "GLAZE",
+        "COLOUR": "CLEAR",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0004",
+        "TYPE": "ICING",
+        "COLOUR": "PINK",
+        "AVAILABILITY": true
+      }
+    ]
+  },
+  {
+    "_ID": "0003",
+    "TYPE": "CAKE",
+    "NAME": "CAKESHOPPER",
+    "LOCATION": "BATH",
+    "BATTERS": [
+      {
+        "_ID": "0001",
+        "TYPE": "RED VELVET",
+        "COLOUR": "RED",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0002",
+        "TYPE": "WHITE CHOCOLATE",
+        "COLOUR": "WHITE",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0003",
+        "TYPE": "DARK CHOCOLATE",
+        "COLOUR": "BROWN",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0004",
+        "TYPE": "MILK CHOCOLATE",
+        "COLOUR": "BROWN",
+        "AVAILABILITY": true
+      }
+    ],
+    "TOPPINGS": [
+      {
+        "_ID": "0001",
+        "TYPE": "SPRINKLES",
+        "COLOUR": "RED",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0002",
+        "TYPE": "SUGAR",
+        "COLOUR": "WHITE",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0003",
+        "TYPE": "GLAZE",
+        "COLOUR": "CLEAR",
+        "AVAILABILITY": true
+      },
+      {
+        "_ID": "0004",
+        "TYPE": "ICING",
+        "COLOUR": "PINK",
+        "AVAILABILITY": true
+      }
+    ]
+  }
+]

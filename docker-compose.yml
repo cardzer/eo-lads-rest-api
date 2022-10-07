@@ -1,0 +1,16 @@
+version: "3"
+services:
+  backend:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "8080:8080" # Forward the exposed port 8080 on the container to port 8080 on the host machine
+    restart: always
+    environment:
+      DB_CONNECTION: ${DB_CONNECTION}
+    networks:
+      - store-manager
+networks:
+  store-manager:
+    external: true

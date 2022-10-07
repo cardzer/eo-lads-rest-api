@@ -1,0 +1,32 @@
+[
+  {
+    "_ID": "0001",
+    "PAYMENT_REF": "asfder23423423",
+    "AMOUNT": 3
+  },
+  {
+    "_ID": "0002",
+    "PAYMENT_REF": "23423adsfa324",
+    "AMOUNT": 5
+  },
+  {
+    "_ID": "0003",
+    "PAYMENT_REF": "asdfsdf234324",
+    "AMOUNT": 4.3
+  },
+  {
+    "_ID": "0004",
+    "PAYMENT_REF": "sfdgdfsg3543gdfg",
+    "AMOUNT": 5.2
+  },
+  {
+    "_ID": "0005",
+    "PAYMENT_REF": "sdfgsdfg23425egdsfg",
+    "AMOUNT": 1.2
+  },
+  {
+    "_ID": "0006",
+    "PAYMENT_REF": "asdfasdf4234gfhd3435",
+    "AMOUNT": 7
+  }
+]
